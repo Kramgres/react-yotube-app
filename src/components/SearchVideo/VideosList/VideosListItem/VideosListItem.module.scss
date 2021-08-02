@@ -1,0 +1,34 @@
+@import "../../../../scss/parametres";
+@import "../../../../scss/mixins";
+
+.preview{
+  display: flex;
+}
+
+.img{
+  & img{
+    width: 157px;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+}
+
+.title{
+  font-size: $font-size-small;
+  line-height: $line-height-medium;
+  font-weight: 500;
+  color: $color-black;
+  margin-bottom: 8px;
+  @include text-overflow(2);
+}
+
+.channel, .views{
+  font-size: $font-size-small;
+  line-height: $line-height-medium;
+  color: rgba(23, 23, 25, 0.3);
+}
+
+.content{
+
+}

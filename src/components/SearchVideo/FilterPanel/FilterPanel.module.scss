@@ -1,0 +1,18 @@
+@import "../../../scss/parametres";
+
+.panel{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.videosCount{
+  font-size: $font-size-small;
+  line-height: $line-height-base;
+  color: $color-black;
+
+  &__count{
+    margin-left: 15px;
+    color: rgba(23, 23, 25, 0.3);
+  }
+}

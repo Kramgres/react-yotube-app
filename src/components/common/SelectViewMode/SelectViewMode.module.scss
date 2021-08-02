@@ -1,0 +1,23 @@
+@import "../../../scss/parametres";
+
+.viewMode{
+  display: flex;
+}
+
+.variant{
+  display: flex;
+  background: $color-white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.3;
+  padding: 0;
+  margin-right: 15px;
+
+  &:last-child{
+    margin-right: 0;
+  }
+
+  &_active{
+    opacity: 1;
+  }
+}

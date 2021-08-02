@@ -1,0 +1,15 @@
+@import "../../../scss/parametres";
+
+.search{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.title{
+  font-size: $font-size-biggest;
+  line-height: $line-height-biggest;
+  color: $color-black;
+  text-align: center;
+  margin-bottom: 40px;
+}

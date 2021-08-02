@@ -1,0 +1,34 @@
+@import '~antd/dist/antd.css';
+@import "../scss/parametres";
+@import "../scss/fonts";
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+}
+
+.container{
+  width: 1040px;
+  margin: 0 auto;
+}
+
+body{
+  height: auto;
+}
+
+.main{
+  display: flex;
+  background-color: $color-gray-light;
+  min-height: 100vh;
+}
+
+.mainWithHeader{
+  margin-top: $header-height;
+  min-height: calc(100vh - #{$header-height});
+}

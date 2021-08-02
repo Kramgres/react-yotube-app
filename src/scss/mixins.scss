@@ -1,0 +1,8 @@
+@mixin text-overflow($rows) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: $rows;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}

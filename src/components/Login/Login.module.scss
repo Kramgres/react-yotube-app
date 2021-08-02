@@ -1,0 +1,45 @@
+@import "../../scss/parametres";
+
+.login{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  &__wrapper{
+    margin: auto;
+    width: 510px;
+    padding: 40px 88px 60px;
+    background: $color-white;
+    border: 1px solid rgba(39, 39, 39, 0.1);
+    border-radius: 5px;
+  }
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+  & img{
+    height: 88px;
+    width: 88px;
+  };
+}
+
+.title{
+  font-size: $font-size-medium;
+  line-height: $line-height-large;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.buttonWrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  width: 176px;
+  height: 52px;
+}

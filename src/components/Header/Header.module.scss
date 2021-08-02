@@ -1,0 +1,64 @@
+@import "../../scss/parametres";
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: $header-height;
+  background-color: $color-white;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    height: $header-height;
+  }
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.menu {
+  display: flex;
+  height: 100%;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: $font-size-medium;
+    line-height: $line-height-large;
+    color: $color-primary;
+    padding: 0 20px;
+    text-decoration: none;
+
+    &_active {
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: 20px;
+        right: 20px;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid $color-primary;
+      }
+    }
+  }
+}
+
+.logout{
+  height: 100%;
+  margin-right: 0;
+  margin-left: auto;
+  font-size: $font-size-medium;
+  line-height: $line-height-large;
+  color: $color-primary;
+  padding: 0 20px;
+  border: none;
+  background: $color-white;
+  cursor: pointer;
+}

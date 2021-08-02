@@ -1,0 +1,22 @@
+@import "../../../scss/parametres";
+
+.search{
+  width: 100%;
+  display: flex;
+  padding-top: 40px;
+}
+
+.title{
+  font-size: $font-size-big;
+  line-height: $line-height-big;
+  color: $color-black;
+  margin-bottom: 12px;
+}
+
+.input{
+  margin-bottom: 40px;
+}
+
+.filterPanel{
+  margin-bottom: 20px;
+}
